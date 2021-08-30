@@ -1,0 +1,156 @@
+html {
+	box-sizing: border-box;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+	background-color: #E5E5E5;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.text {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.btn-introduction {
+	background-color: #FFEE7A;
+	border-radius: 8px;
+	width: 242px;
+	height: 40px;
+	text-align: center;
+	box-shadow: 1px 1px 15px rgba(0,0,0, 0.1);
+	border: none;
+	font-weight: bold;
+}
+
+.iphone-div {
+	display: flex;
+	justify-content: center;
+}
+
+.iphone {
+	width: 40%;
+	margin: 50px 0;
+}
+
+form .btn-introduction {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form-div {
+	background-color: #242424;
+	border-radius: 16px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+input, select {
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 4px;
+	padding: 10px;
+	border: none;
+}
+
+form p, label {
+	color: #E5E5E5;
+	font-size: 0.8em;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FFEE7A;
+}
+
+.checkbox {
+	width: auto;
+}
+
+/* Footer */
+
+#footer {
+	background-color: #242424;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	margin-top: 40px;
+	font-size: 0.8em;
+}
+
+ul {
+	color: #E5E5E5;
+	list-style-type: none;
+	padding: 0;
+}
+
+li{
+	margin-bottom: 20px;
+}
+
+.fab {
+	margin: 0 60px 0 0;
+	color: #E5E5E5;
+}
+
+li i {
+	margin: 0 5px 0 0;
+	color: #FFEE7A;
+}
+
+#social-media {
+	color: #FFEE7A;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* Media Queries */
+/* Media Queries */
+/* Media Queries */
+
+@media (max-width: 800px){
+	.registration {
+		display: none;
+	}
+}
+
+@media (min-width: 800px){
+
+	.wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	h2 {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+	}
+
+	.form-div {
+		margin-left: 10%;
+	}
+
+}
+
+@media (orientation: landscape){
+
+}
+
+
+
+
